@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+html {
+    font-family: 'Poppins', 'NFT', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(135deg, #65799b 0%, #5e2563 100%);
+}
