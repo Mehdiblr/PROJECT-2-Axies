@@ -87,4 +87,63 @@ header #container .upMenu .light-dark button {
 header #container .upMenu img {
   width: 8rem;
 }
+
+main {
+  background-color: #0000007d;
+}
+
+main section {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section .left-hero {
+  color: white;
+  padding: 5rem 0;
+}
+
+main section .left-hero h2 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+main section .left-hero h2 span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C56CD6), to(#3425AF));
+  background: linear-gradient(180deg, #C56CD6 0%, #3425AF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main section .left-hero p {
+  font-weight: 200;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+main section .left-hero .expo-create button {
+  outline: none;
+  background: transparent;
+  border: 2px solid #5142fb;
+  border-radius: 2rem;
+  padding: 0.6rem 2.4rem;
+  color: white;
+  font-family: inherit;
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=style.css.map */
