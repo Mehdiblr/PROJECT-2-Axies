@@ -493,4 +493,194 @@ main section#live-action .live-auction-bar .live-cards .cards:hover .place-bid {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
+
+main section#popular {
+  background-color: #14141f;
+}
+
+main section#popular .popular-section {
+  width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3rem 0;
+  color: white;
+}
+
+main section#popular .popular-section .popular-bar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3rem 0;
+}
+
+main section#popular .popular-section .popular-bar h3 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+main section#popular .popular-section .popular-bar h5 {
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(135deg, #C56CD6 0%, #3425AF 100%);
+  font-weight: 400;
+}
+
+main section#popular .popular-section .popular-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#popular .popular-section .popular-cards .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 2rem;
+  background: #343444;
+  margin: 0 2rem;
+  border-radius: 1rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img {
+  -ms-flex-preferred-size: 185px;
+      flex-basis: 185px;
+  width: 20rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .bottom-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .bottom-images img {
+  width: 133px;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info img {
+  border-radius: 2rem;
+  width: 7rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info > i {
+  color: greenyellow;
+  position: absolute;
+  bottom: 0;
+  left: 62px;
+  font-size: 1.5rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info .popular-name {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 1rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info p span {
+  font-weight: bold;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-info button {
+  border: 0;
+  outline: 0;
+  background: #000000b3;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  border-radius: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
