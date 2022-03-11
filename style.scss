@@ -1,6 +1,10 @@
 //variables
 $width:1280px;
 //custom
+body {
+    overflow: hidden;
+}
+
 header {
     background: linear-gradient(135deg, #2a3856 0%, #1d031e 100%);
     height: 7rem;
