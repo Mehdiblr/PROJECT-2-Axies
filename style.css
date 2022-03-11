@@ -1,11 +1,11 @@
 header {
   background: linear-gradient(135deg, #2a3856 0%, #1d031e 100%);
-  height: 5rem;
+  height: 7rem;
   border-bottom: 2px solid #c1c1c19c;
 }
 
 header #container {
-  width: 90%;
+  width: 1280px;
   margin: 0 auto;
   height: 100%;
 }
@@ -43,8 +43,8 @@ header #container .upMenu nav ul li a {
   padding: 0 1rem;
   text-decoration: none;
   color: #f5f5f5;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 header #container .upMenu nav ul li a i {
@@ -52,7 +52,7 @@ header #container .upMenu nav ul li a i {
 }
 
 header #container .upMenu .search-wallet {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 header #container .upMenu .search-wallet > i {
@@ -68,7 +68,8 @@ header #container .upMenu .search-wallet button {
   padding: 0.6rem 1.4rem;
   color: white;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
 
 header #container .upMenu .search-wallet button i {
@@ -82,18 +83,20 @@ header #container .upMenu .light-dark button {
   padding: 0.3rem;
   border-radius: 0.4rem;
   color: white;
+  font-size: 1.9rem;
+  cursor: pointer;
 }
 
 header #container .upMenu img {
-  width: 8rem;
+  width: 14rem;
 }
 
 main {
   background-color: #0000007d;
 }
 
-main section {
-  width: 90%;
+main section#hero {
+  width: 1280px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,33 +113,34 @@ main section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 6rem 0;
 }
 
-main section .left-hero {
+main section#hero .left-hero {
   color: white;
   padding: 5rem 0;
 }
 
-main section .left-hero h2 {
+main section#hero .left-hero h2 {
   color: white;
-  font-size: 4rem;
+  font-size: 7rem;
   font-weight: 600;
 }
 
-main section .left-hero h2 span {
+main section#hero .left-hero h2 span {
   background: -webkit-gradient(linear, left top, left bottom, from(#C56CD6), to(#3425AF));
   background: linear-gradient(180deg, #C56CD6 0%, #3425AF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-main section .left-hero p {
+main section#hero .left-hero p {
   font-weight: 200;
-  font-size: 1.6rem;
-  padding: 1rem 0;
+  font-size: 2rem;
+  padding: 2rem 0;
 }
 
-main section .left-hero .expo-create button {
+main section#hero .left-hero .expo-create button {
   outline: none;
   background: transparent;
   border: 2px solid #5142fb;
@@ -144,6 +148,345 @@ main section .left-hero .expo-create button {
   padding: 0.6rem 2.4rem;
   color: white;
   font-family: inherit;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+
+main section#hero .right-hero img {
+  width: 80%;
+  -webkit-animation: axies-hero 2s infinite;
+          animation: axies-hero 2s infinite;
+}
+
+main section#our-service {
+  width: 1280px;
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main section#our-service div {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+}
+
+main section#our-service div p {
+  text-align: center;
+  font-weight: 200;
+  padding: 0 0 3rem 0;
+  font-size: 1.6rem;
+}
+
+main section#our-service div i {
+  font-size: 3rem;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+main section#our-service div h4 {
+  font-size: 2.4rem;
+  padding: 1rem 0;
+  font-weight: 500;
+}
+
+main section#our-service div:nth-child(1) i {
+  background-color: #5142fb;
+}
+
+main section#our-service div:nth-child(2) i {
+  background-color: #74c000;
+}
+
+main section#our-service div:nth-child(3) i {
+  background-color: purple;
+}
+
+main section#our-service div:nth-child(4) i {
+  background-color: orangered;
+}
+
+main section#live-action {
+  background-color: #040505b3;
+  padding: 2rem 0;
+}
+
+main section#live-action .live-auction-bar {
+  width: 1280px;
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#live-action .live-auction-bar .live-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  color: white;
+  padding: 0 0 2rem;
+}
+
+main section#live-action .live-auction-bar .live-control h3 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+main section#live-action .live-auction-bar .live-control h5 {
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(135deg, #C56CD6 0%, #3425AF 100%);
+  font-weight: 400;
+}
+
+main section#live-action .live-auction-bar .live-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  align-items: center;
+  background: #343444;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin: 0 0.8rem;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards > img {
+  border-radius: 2rem;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 48%;
+  padding: 0.5rem;
+  background-color: #343444;
+  border-radius: 1rem;
+  color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.4rem;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .timer i {
+  color: #f44336;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .place-bid {
+  background-color: white;
+  padding: 0.6rem 3rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .place-bid i {
+  color: #5142fb;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards h3 {
+  color: white;
+  padding: 2rem 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .live-creator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #242431;
+  padding: 0 0 2rem 0;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .live-creator > img {
+  border-radius: 2rem;
+  width: 25%;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .live-creator .creator-info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .live-creator button {
+  outline: none;
+  background: #5142fb;
+  border: 0;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .current-bid {
+  width: 100%;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .current-bid .bid p {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .current-bid .bid h4 {
+  font-size: 2rem;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .current-bid .bid h4 span {
+  font-weight: 200;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards .current-bid button {
+  background-color: #14141f;
+  outline: 0;
+  border: 0;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards:hover .place-bid {
+  opacity: 1;
+  visibility: visible;
+  top: 160px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 /*# sourceMappingURL=style.css.map */
