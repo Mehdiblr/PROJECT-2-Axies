@@ -6,9 +6,12 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
     background: linear-gradient(135deg, #2a3856 0%, #1d031e 100%);
     height: 7rem;
     border-bottom: 2px solid #c1c1c19c;
+    z-index: 9;
     #container {
         width: $width;
         margin: 0 auto;
@@ -57,6 +60,10 @@ header {
                     i {
                         margin-right: 1rem;
                     }
+                }
+                button:hover {
+                    background-color: #74c000;
+                    border: 2px solid #74c000;
                 }
             }
             .light-dark {
@@ -119,12 +126,16 @@ main {
                     font-size: 1.9rem;
                     cursor: pointer;
                 }
+                button:hover {
+                    background-color: #74c000;
+                    border: 2px solid #74c000;
+                }
             }
         }
         .right-hero {
             img {
                 width: 80%;
-                animation: axies-hero 2s infinite
+                animation: axies-hero 4s infinite
             }
         }
     }
@@ -462,6 +473,62 @@ main {
                             color: white;
                             border-radius: 1rem;
                         }
+                    }
+                }
+            }
+        }
+    }
+    section#top-seller {
+        background-color: #14141f;
+        .top-seller-container {
+            width: $width;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-between;
+            align-content: center;
+            padding: 3rem 0;
+            color: white;
+            >h3 {
+                font-size: 4rem;
+                font-weight: 500;
+            }
+            .top-seller-list {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                justify-content: space-between;
+                align-items: center;
+                justify-items: start;
+                padding: 4rem 0px;
+                width: 100%;
+                padding: 1.5rem 0;
+                >div {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 1.5rem 0;
+                    img {
+                        border-radius: 4rem;
+                        width: 10rem;
+                    }
+                    >div {
+                        padding-left: 0.5rem;
+                        h3 {
+                            font-size: 1.5rem;
+                        }
+                        p {
+                            font-size: 1.2rem;
+                        }
+                    }
+                    i {
+                        position: absolute;
+                        bottom: 3%;
+                        right: 50%;
+                        font-size: 3rem;
+                        color: #6e5afc;
                     }
                 }
             }
