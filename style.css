@@ -785,4 +785,301 @@ main section#top-seller .top-seller-container .top-seller-list > div i {
   font-size: 3rem;
   color: #6e5afc;
 }
+
+main section#today-pick {
+  background-color: #14141f;
+  padding: 3rem 0;
+  color: white;
+}
+
+main section#today-pick .today-pick-bar {
+  width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main section#today-pick .today-pick-bar .today-pick-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#today-pick .today-pick-bar .today-pick-header h3 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+main section#today-pick .today-pick-bar .today-pick-header h5 {
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(135deg, #C56CD6 0%, #3425AF 100%);
+  font-weight: 400;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-filter {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-filter button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 0.4rem 1rem;
+  font-size: 2rem;
+  font-family: inherit;
+  border: 1px solid #737282;
+  border-radius: 3rem;
+  padding: 0.8rem 1rem;
+  margin: 0 0.5rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-filter button:first-child {
+  margin: 0 0.5rem 0 0;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-filter i {
+  padding-right: 0.3rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-sort button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 0.4rem 1rem;
+  font-size: 2rem;
+  font-family: inherit;
+  border: 1px solid #737282;
+  border-radius: 3rem;
+  padding: 0.8rem 1rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-filter .today-sort button i {
+  padding-right: 1rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  align-items: center;
+  background: #343444;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin: 0 0.8rem 1rem 0;
+  padding: 1.5rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards > img {
+  border-radius: 2rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards > span {
+  padding: 0.6rem 1rem;
+  background-color: #000000c7;
+  border-radius: 1rem;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  font-size: 1.4rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 48%;
+  padding: 0.5rem;
+  background-color: #343444;
+  border-radius: 1rem;
+  color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.4rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .timer i {
+  color: #f44336;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .place-bid {
+  background-color: white;
+  padding: 0.6rem 3rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .place-bid i {
+  color: #5142fb;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards h3 {
+  color: white;
+  padding: 2rem 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .live-creator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #242431;
+  padding: 0 0 2rem 0;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .live-creator > img {
+  border-radius: 2rem;
+  width: 25%;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .live-creator .creator-info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .live-creator button {
+  outline: none;
+  background: #5142fb;
+  border: 0;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid {
+  width: 100%;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid .bid p {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid .bid h4 {
+  font-size: 1.6rem;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid .bid h4 span {
+  font-weight: 200;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid button {
+  font-size: 1.6rem;
+  font-family: inherit;
+  background-color: inherit;
+  outline: 0;
+  border: 0;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid button i {
+  padding-right: 0.4rem;
+}
 /*# sourceMappingURL=style.css.map */
