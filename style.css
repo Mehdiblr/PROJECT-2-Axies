@@ -365,6 +365,8 @@ main section#live-action .live-auction-bar .live-cards .cards {
 
 main section#live-action .live-auction-bar .live-cards .cards > img {
   border-radius: 2rem;
+  width: 26rem;
+  margin: 0 auto;
 }
 
 main section#live-action .live-auction-bar .live-cards .cards .timer {
@@ -621,7 +623,7 @@ main section#popular .popular-section .popular-cards .cards .popular-gallery .to
 main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img {
   -ms-flex-preferred-size: 185px;
       flex-basis: 185px;
-  width: 20rem;
+  width: 18rem;
   padding: 0.4rem;
   border-radius: 1rem;
   padding: 0.4rem;
@@ -635,7 +637,7 @@ main section#popular .popular-section .popular-cards .cards .popular-gallery .bo
 }
 
 main section#popular .popular-section .popular-cards .cards .popular-gallery .bottom-images img {
-  width: 133px;
+  width: 12rem;
   padding: 0.4rem;
   border-radius: 1rem;
 }
@@ -1081,5 +1083,103 @@ main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid but
 
 main section#today-pick .today-pick-bar .today-pick-card .cards .current-bid button i {
   padding-right: 0.4rem;
+}
+
+main footer {
+  background-color: #0d0d12;
+  color: white;
+}
+
+main footer .footer-container {
+  width: 1280px;
+  padding: 4rem 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main footer .footer-container .about-us-footer p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+main footer .footer-container .my-account-footer h4,
+main footer .footer-container .resourse-footer h4,
+main footer .footer-container .company-footer h4,
+main footer .footer-container .suscribe-footer h4 {
+  font-size: 2rem;
+}
+
+main footer .footer-container .my-account-footer ul,
+main footer .footer-container .resourse-footer ul,
+main footer .footer-container .company-footer ul,
+main footer .footer-container .suscribe-footer ul {
+  padding: 2rem 0;
+}
+
+main footer .footer-container .my-account-footer ul li,
+main footer .footer-container .resourse-footer ul li,
+main footer .footer-container .company-footer ul li,
+main footer .footer-container .suscribe-footer ul li {
+  list-style-type: none;
+  font-size: 1.6rem;
+  padding: 0.3rem 0;
+  font-weight: 300;
+}
+
+main footer .footer-container .suscribe-footer {
+  position: relative;
+}
+
+main footer .footer-container .suscribe-footer input[type=text] {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background: #ffffff24;
+}
+
+main footer .footer-container .suscribe-footer button {
+  position: absolute;
+  right: 0;
+  bottom: 89px;
+  background-color: #3f51b5;
+  width: 35px;
+  height: 35px;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main footer .footer-container .suscribe-footer button i {
+  color: white;
+}
+
+main footer .footer-container .footer-social {
+  margin: 2rem 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+}
+
+main footer .footer-container .footer-social span {
+  color: white;
+  font-size: 2rem;
+  margin: 0.3rem;
+  padding: 0.6rem 0.7rem;
+  background: #4f4f4f;
+  border-radius: 0.6rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -254,6 +254,8 @@ main {
                     margin: 0 0.8rem;
                     >img {
                         border-radius: 2rem;
+                        width: 26rem;
+                        margin: 0 auto;
                     }
                     .timer {
                         display: flex;
@@ -418,7 +420,7 @@ main {
                             display: flex;
                             img {
                                 flex-basis: 185px;
-                                width: 20rem;
+                                width: 18rem;
                                 padding: 0.4rem;
                                 border-radius: 1rem;
                                 padding: 0.4rem;
@@ -428,7 +430,7 @@ main {
                         .bottom-images {
                             display: flex;
                             img {
-                                width: 133px;
+                                width: 12rem;
                                 padding: 0.4rem;
                                 border-radius: 1rem;
                             }
@@ -740,6 +742,81 @@ main {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: #0d0d12;
+        color: white;
+        .footer-container {
+            width: $width;
+            padding: 4rem 0;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            align-content: center;
+            .about-us-footer {
+                p {
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                }
+            }
+            .my-account-footer,
+            .resourse-footer,
+            .company-footer,
+            .suscribe-footer {
+                h4 {
+                    font-size: 2rem;
+                }
+                ul {
+                    padding: 2rem 0;
+                    li {
+                        list-style-type: none;
+                        font-size: 1.6rem;
+                        padding: 0.3rem 0;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .suscribe-footer {
+                position: relative;
+                input[type=text] {
+                    width: 100%;
+                    outline: 0;
+                    border: 0;
+                    padding: 1rem;
+                    border-radius: 0.3rem;
+                    background: #ffffff24;
+                }
+                button {
+                    position: absolute;
+                    right: 0;
+                    bottom: 89px;
+                    background-color: #3f51b5;
+                    width: 35px;
+                    height: 35px;
+                    outline: 0;
+                    border: 0;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    i {
+                        color: white
+                    }
+                }
+            }
+            .footer-social {
+                margin: 2rem 0;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                span {
+                    color: white;
+                    font-size: 2rem;
+                    margin: 0.3rem;
+                    padding: 0.6rem 0.7rem;
+                    background: #4f4f4f;
+                    border-radius: 0.6rem;
                 }
             }
         }
