@@ -216,7 +216,7 @@ main section#our-service div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 main section#our-service div p {
@@ -237,6 +237,12 @@ main section#our-service div h4 {
   font-size: 2.4rem;
   padding: 1rem 0;
   font-weight: 500;
+}
+
+main section#our-service div:hover {
+  -webkit-box-shadow: 0 0 1rem blue;
+          box-shadow: 0 0 1rem blue;
+  border-radius: 1rem;
 }
 
 main section#our-service div:nth-child(1) i {
@@ -341,6 +347,8 @@ main section#live-action .live-auction-bar .live-cards {
 }
 
 main section#live-action .live-auction-bar .live-cards .cards {
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,7 +365,7 @@ main section#live-action .live-auction-bar .live-cards .cards {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   align-items: center;
-  background: #343444;
+  background-color: #343444;
   padding: 2rem;
   border-radius: 2rem;
   margin: 0 0.8rem;
@@ -367,6 +375,8 @@ main section#live-action .live-auction-bar .live-cards .cards > img {
   border-radius: 2rem;
   width: 26rem;
   margin: 0 auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 main section#live-action .live-auction-bar .live-cards .cards .timer {
@@ -374,6 +384,8 @@ main section#live-action .live-auction-bar .live-cards .cards .timer {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   width: 48%;
   padding: 0.5rem;
   background-color: #343444;
@@ -499,6 +511,12 @@ main section#live-action .live-auction-bar .live-cards .cards .current-bid butto
   padding: 1rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards:hover {
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  background-color: #4568DC;
 }
 
 main section#live-action .live-auction-bar .live-cards .cards:hover .place-bid {
@@ -699,6 +717,10 @@ main section#popular .popular-section .popular-cards .cards .popular-info button
   border-radius: 1rem;
 }
 
+main section#popular .popular-section .popular-cards .cards:hover {
+  background-color: #093028;
+}
+
 main section#top-seller {
   background-color: #14141f;
 }
@@ -761,6 +783,7 @@ main section#top-seller .top-seller-container .top-seller-list > div {
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding: 1.5rem 0;
+  width: 100%;
 }
 
 main section#top-seller .top-seller-container .top-seller-list > div img {
