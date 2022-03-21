@@ -1,0 +1,210 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section {
+  background-image: url(/assets/img/daniel-leone-g30P1zcOzXo-unsplash.jpg);
+  background-clip: border-box;
+  width: 70%;
+  height: 100vh;
+  background-size: cover;
+}
+
+main > div {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #373b51bf;
+  padding: 0 5rem;
+}
+
+main > div h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+
+main > div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+main > div form span {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+main > div form input {
+  outline: none;
+  border: 2px solid #eeeeee3d;
+  padding: 0.7rem;
+  width: inherit;
+  background: transparent;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+main > div form input::-webkit-input-placeholder {
+  color: #eeeeee3d;
+  font-family: inherit;
+}
+
+main > div form input:-ms-input-placeholder {
+  color: #eeeeee3d;
+  font-family: inherit;
+}
+
+main > div form input::-ms-input-placeholder {
+  color: #eeeeee3d;
+  font-family: inherit;
+}
+
+main > div form input::placeholder {
+  color: #eeeeee3d;
+  font-family: inherit;
+}
+
+main > div form button {
+  outline: 0;
+  border: 0;
+  width: inherit;
+  background: #673ab7;
+  padding: 0.8rem;
+  color: inherit;
+  font-family: inherit;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+}
+
+main > div p {
+  padding: 2rem 0;
+  font-weight: 500;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.4rem;
+}
+
+main > div p span {
+  color: #5e5eff;
+}
+
+main > div p span:hover {
+  cursor: pointer;
+  border-bottom: 1px solid;
+}
+
+main > div div.line {
+  border-bottom: 1px solid #607d8b;
+  width: 100%;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+main > div div.line > span {
+  position: absolute;
+  top: -14px;
+  right: 50%;
+  background: #373b51bf;
+  padding: 0.3rem;
+  font-size: 1.4rem;
+}
+
+main > div div.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+main > div div.social i {
+  color: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  width: 4rem;
+  text-align: center;
+}
+
+main > div div.social i:nth-child(1) {
+  background-color: black;
+}
+
+main > div div.social i:nth-child(2) {
+  background-color: dodgerblue;
+}
+
+main > div div.social i:nth-child(3) {
+  background-color: skyblue;
+}
+
+main > div div.social i:nth-child(4) {
+  background-color: orangered;
+}
+/*# sourceMappingURL=login.css.map */
