@@ -1245,13 +1245,14 @@ main .share-v {
 
 main .share-v span {
   margin-bottom: 0.3rem;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 main .share-v span:hover {
   background-color: blueviolet;
   padding: 0.4rem;
   border-radius: 3rem;
-  margin-bottom: 0.4rem;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
