@@ -129,6 +129,10 @@ main > div form button {
   font-size: 1.6rem;
 }
 
+main > div form button:hover {
+  cursor: pointer;
+}
+
 main > div p {
   padding: 2rem 0;
   font-weight: 500;

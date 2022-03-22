@@ -56,6 +56,10 @@ header {
                     color: white;
                     font-family: inherit;
                     font-size: 1.6rem;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
                     cursor: pointer;
                     i {
                         margin-right: 1rem;
@@ -63,6 +67,7 @@ header {
                 }
                 button:hover {
                     background-color: #74c000;
+                    text-decoration: none;
                     border: 2px solid #74c000;
                 }
             }
@@ -832,6 +837,34 @@ main {
                     border-radius: 0.6rem;
                 }
             }
+        }
+    }
+    .share-v {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 3rem;
+        left: 30px;
+        background-color: #000050;
+        top: 140px;
+        padding: 2rem;
+        border-radius: 1rem;
+        color: white;
+        font-size: 2rem;
+        box-shadow: inset 0px -7px 7px purple;
+        span {
+            margin-bottom: 0.3rem;
+        }
+        span:hover {
+            background-color: blueviolet;
+            padding: 0.4rem;
+            border-radius: 3rem;
+            margin-bottom: 0.4rem;
+            cursor: pointer;
         }
     }
 }

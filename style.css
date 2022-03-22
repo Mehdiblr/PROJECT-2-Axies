@@ -79,12 +79,18 @@ header #container .upMenu .search-wallet button {
   cursor: pointer;
 }
 
+header #container .upMenu .search-wallet button a {
+  text-decoration: none;
+  color: white;
+}
+
 header #container .upMenu .search-wallet button i {
   margin-right: 1rem;
 }
 
 header #container .upMenu .search-wallet button:hover {
   background-color: #74c000;
+  text-decoration: none;
   border: 2px solid #74c000;
 }
 
@@ -1204,5 +1210,48 @@ main footer .footer-container .footer-social span {
   padding: 0.6rem 0.7rem;
   background: #4f4f4f;
   border-radius: 0.6rem;
+}
+
+main .share-v {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 3rem;
+  left: 30px;
+  background-color: #000050;
+  top: 140px;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  -webkit-box-shadow: inset 0px -7px 7px purple;
+          box-shadow: inset 0px -7px 7px purple;
+}
+
+main .share-v span {
+  margin-bottom: 0.3rem;
+}
+
+main .share-v span:hover {
+  background-color: blueviolet;
+  padding: 0.4rem;
+  border-radius: 3rem;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
