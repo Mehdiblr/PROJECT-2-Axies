@@ -55,7 +55,12 @@ header #container .upMenu nav ul li a {
 }
 
 header #container .upMenu nav ul li a i {
-  padding: 0 0 0 0.2rem;
+  padding: 0 0 0 0.4rem;
+}
+
+header #container .upMenu nav ul li a:hover i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 header #container .upMenu .search-wallet {
