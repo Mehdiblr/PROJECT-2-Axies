@@ -1,0 +1,249 @@
+header {
+  background: #00075c40;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  padding-top: 7.2rem;
+  background-image: url("../img/bg.jpg");
+}
+
+main .product-info {
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+
+main .product-info h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+main .product-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .product-info ul li {
+  list-style: none;
+  color: #ffffff5c;
+}
+
+main .product-info ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main .product-info ul li:after {
+  content: '/';
+  padding: 0rem 1.6rem;
+  color: #ffffff1a;
+  font-size: 1.5rem;
+}
+
+main .product-info ul li:last-child:after {
+  content: ' ';
+  padding: 0rem;
+}
+
+main .product-info ul li:last-child {
+  color: white;
+}
+
+main #product-detail {
+  background-color: #14141f;
+  background: linear-gradient(135deg, #14141f 0%, #191950 100%);
+  padding: 3rem 0;
+}
+
+main #product-detail .grid-2-auto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 4rem;
+}
+
+main #product-detail .grid-2-auto .product-image img {
+  border-radius: 1rem;
+}
+
+main #product-detail .product-summery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: white;
+}
+
+main #product-detail .product-summery h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+main #product-detail .product-summery .extra-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+main #product-detail .product-summery .extra-info .left-box {
+  color: #eee;
+}
+
+main #product-detail .product-summery .extra-info .left-box span {
+  padding: 0.3rem 0.7rem;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 2rem;
+  margin-right: 0.8rem;
+  background: black;
+  font-size: 1.2rem;
+}
+
+main #product-detail .product-summery .extra-info .left-box span i {
+  padding-right: 0.3rem;
+}
+
+main #product-detail .product-summery .extra-info .left-box span:hover {
+  cursor: pointer;
+  background-color: #591055;
+}
+
+main #product-detail .product-summery .extra-info .right-box {
+  color: #eee;
+}
+
+main #product-detail .product-summery .extra-info .right-box span {
+  padding: 0.3rem 0.7rem;
+  display: inline-block;
+  margin-right: 0.8rem;
+  font-size: 1.4rem;
+  background-color: #1e5670;
+  border-radius: 2rem;
+}
+
+main #product-detail .product-summery .extra-info .right-box span:hover {
+  cursor: pointer;
+  background-color: #591055;
+}
+
+main #product-detail .product-summery .product-creator {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  width: 100%;
+  grid-column-gap: 2rem;
+}
+
+main #product-detail .product-summery .product-creator .product-owner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #343444;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+main #product-detail .product-summery .product-creator .product-owner img {
+  width: 5rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+main #product-detail .product-summery .product-creator .product-owner .product-creator-info h3 {
+  font-weight: 200;
+}
+
+main #product-detail .product-summery .product-creator .product-owner .product-creator-info h2 {
+  font-weight: 500;
+}
+
+main #product-detail .product-summery .product-creator .product-creator-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #343444;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+main #product-detail .product-summery .product-creator .product-creator-b img {
+  width: 5rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+main #product-detail .product-summery .product-creator .product-creator-b .product-creator-info h3 {
+  font-weight: 200;
+}
+
+main #product-detail .product-summery .product-creator .product-creator-b .product-creator-info h2 {
+  font-weight: 500;
+}
+
+main #product-detail .product-summery > p {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #b1b1b1;
+}
+
+main #product-detail h1::after {
+  content: " \" ";
+}
+
+main #product-detail h1::before {
+  content: " \" ";
+}
+/*# sourceMappingURL=single.css.map */
