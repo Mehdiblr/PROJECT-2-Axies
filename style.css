@@ -447,6 +447,15 @@ main section#live-action .live-auction-bar .live-cards .cards h3 {
   font-weight: 500;
 }
 
+main section#live-action .live-auction-bar .live-cards .cards h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main section#live-action .live-auction-bar .live-cards .cards h3 a:hover {
+  text-decoration: underline;
+}
+
 main section#live-action .live-auction-bar .live-cards .cards .live-creator {
   width: 100%;
   display: -webkit-box;
@@ -1034,6 +1043,15 @@ main section#today-pick .today-pick-bar .today-pick-card .cards h3 {
   padding: 2rem 0;
   font-size: 1.7rem;
   font-weight: 500;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main section#today-pick .today-pick-bar .today-pick-card .cards h3 a:hover {
+  text-decoration: underline;
 }
 
 main section#today-pick .today-pick-bar .today-pick-card .cards .live-creator {

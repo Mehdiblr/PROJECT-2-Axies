@@ -446,4 +446,8 @@ main #product-detail h1::after {
 main #product-detail h1::before {
   content: " \" ";
 }
+
+#live-action {
+  background: linear-gradient(135deg, #65799b 0%, #5e2563 100%);
+}
 /*# sourceMappingURL=single.css.map */
