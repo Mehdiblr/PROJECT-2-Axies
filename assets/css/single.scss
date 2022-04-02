@@ -91,7 +91,7 @@ main {
                         border-radius: 2rem;
                         margin-right: 0.8rem;
                         background: black;
-                        font-size: 1.2rem;
+                        font-size: 1.4rem;
                         i {
                             padding-right: 0.3rem;
                         }
@@ -107,10 +107,9 @@ main {
                         padding: 0.3rem 0.7rem;
                         display: inline-block;
                         margin-right: 0.8rem;
-                        font-size: 1.4rem;
+                        font-size: 1.7rem;
                         background-color: #1e5670;
                         border-radius: 2rem;
-                        i {}
                     }
                     span:hover {
                         cursor: pointer;
@@ -169,9 +168,143 @@ main {
             }
             >p {
                 margin: 2rem 0;
-                font-size: 1.3rem;
-                font-weight: 300;
+                font-size: 1.5rem;
+                font-weight: 400;
                 color: #b1b1b1;
+            }
+            .product-price {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                align-content: center;
+                width: 100%;
+                .product-current-bid {
+                    background-color: #343444;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 48%;
+                    h4 {
+                        font-weight: 300;
+                        font-size: 1.6rem;
+                    }
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 1.4rem;
+                        h5 {
+                            font-size: 1.8rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .product-countdown {
+                    background-color: #343444;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 48%;
+                    h4 {
+                        font-weight: 300;
+                        font-size: 1.6rem;
+                    }
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 1.4rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+            button {
+                margin: 2rem 0;
+                outline: none;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 2rem;
+                width: 100%;
+                padding: 1rem;
+                color: white;
+                font-size: 1.8rem;
+                font-weight: 600;
+                font-family: inherit;
+            }
+            button:hover {
+                cursor: pointer;
+                background-color: #9c27b0;
+            }
+            .bid-summery {
+                display: flex;
+                h5 {
+                    padding: 1rem 1rem 1rem 0;
+                    font-size: 2rem;
+                    font-weight: 300;
+                    a {
+                        text-decoration: none;
+                        padding-bottom: 1.2rem;
+                        color: #fff
+                    }
+                    a:hover {
+                        color: #fff
+                    }
+                }
+                .active {
+                    font-weight: 400;
+                    border-bottom: 1px solid #5142fa;
+                    color: #5142fa;
+                }
+            }
+            ul {
+                margin: 1rem 0;
+                width: 100%;
+                li {
+                    position: relative;
+                    margin-bottom: 0.8rem;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    img {
+                        width: 7rem;
+                        border-radius: 1rem;
+                        margin-right: 1rem;
+                    }
+                    .bid-info-left {
+                        display: flex;
+                        align-items: center;
+                        .bids-info {
+                            h4 {
+                                font-size: 1.6rem;
+                                span {
+                                    font-size: 1.3rem;
+                                    font-weight: 200;
+                                    padding: 0 0.5rem;
+                                }
+                            }
+                            h6 {
+                                font-size: 1.3rem;
+                                font-weight: 200;
+                                padding: 0 0.5rem;
+                            }
+                        }
+                    }
+                    .bid-range {
+                        font-size: 1.6rem;
+                        h4:first-child {
+                            font-weight: 400;
+                            font-weight: 500;
+                        }
+                        h4 {
+                            font-weight: 300;
+                        }
+                    }
+                }
             }
         }
         h1::after {
