@@ -189,23 +189,11 @@ main section#hero .right-hero img {
 main section#our-service {
   width: 1280px;
   margin: 3rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  gap: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 main section#our-service div {
@@ -251,9 +239,10 @@ main section#our-service div h4 {
 }
 
 main section#our-service div:hover {
-  -webkit-box-shadow: 0 0 1rem blue;
-          box-shadow: 0 0 1rem blue;
+  -webkit-box-shadow: 0 0 1rem #000024;
+          box-shadow: 0 0 1rem #000024;
   border-radius: 1rem;
+  background: #5D6874;
 }
 
 main section#our-service div:nth-child(1) i {

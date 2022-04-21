@@ -157,12 +157,9 @@ main {
     section#our-service {
         width: $width;
         margin: 3rem auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         div {
             color: white;
             display: flex;
@@ -191,8 +188,9 @@ main {
             }
         }
         div:hover {
-            box-shadow: 0 0 1rem blue;
+            box-shadow: 0 0 1rem rgb(0, 0, 36);
             border-radius: 1rem;
+            background: #5D6874;
         }
         div:nth-child(1) {
             i {
