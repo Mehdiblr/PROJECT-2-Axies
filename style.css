@@ -642,19 +642,47 @@ main section#popular .popular-section .popular-cards .cards {
 }
 
 main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.8rem;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img:nth-child(2) {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-column: 4 / 7;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img:nth-child(3) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img:nth-child(4) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img:nth-child(5) {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5 / 7;
 }
 
 main section#popular .popular-section .popular-cards .cards .popular-gallery .top-images img {
-  -ms-flex-preferred-size: 185px;
-      flex-basis: 185px;
-  width: 18rem;
-  padding: 0.4rem;
-  border-radius: 1rem;
-  padding: 0.4rem;
-  border-radius: 1rem;
+  width: 100%;
+  border-radius: 0.8rem;
 }
 
 main section#popular .popular-section .popular-cards .cards .popular-gallery .bottom-images {
