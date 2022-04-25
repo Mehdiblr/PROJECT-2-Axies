@@ -1,0 +1,77 @@
+section#profile {
+    padding: 4rem 0;
+    background-color: #040406;
+    .wrapper {
+        color: white;
+        width: 1280px;
+        margin: 0 auto;
+        .profile-view {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .profile-picture {
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                background-color: #211c4a;
+                border-radius: 1rem;
+                >img {
+                    border-radius: 1rem;
+                    margin-bottom: 0.7rem;
+                }
+                >button {
+                    outline: 0;
+                    border: 1px solid white;
+                    background-color: transparent;
+                    font-family: inherit;
+                    color: white;
+                    border-radius: 1rem;
+                    margin-bottom: 0.7rem;
+                }
+            }
+            .profile-detail {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 2rem;
+                .cover-image {
+                    width: 100%;
+                    .select-cover {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        padding: 0;
+                        gap: 1rem;
+                        .cover-section {
+                            height: 16rem;
+                            border: 1px solid white;
+                            border-radius: 1rem;
+                            >button {
+                                outline: 0;
+                                border: 1px solid white;
+                                background-color: transparent;
+                                font-family: inherit;
+                                color: white;
+                                padding: 1rem 3rem;
+                                border-radius: 2rem;
+                                margin-bottom: 0.7rem;
+                            }
+                        }
+                        .cover-section:nth-child(1) {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .cover-section:nth-child(2) {
+                            background-image: url('../img/images-item-details.jpg');
+                        }
+                        .cover-section:nth-child(3) {
+                            background-image: url('../img/daniel-leone-g30P1zcOzXo-unsplash.jpg');
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

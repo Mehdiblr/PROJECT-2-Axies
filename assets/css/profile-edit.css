@@ -1,0 +1,119 @@
+section#profile {
+  padding: 4rem 0;
+  background-color: #040406;
+}
+
+section#profile .wrapper {
+  color: white;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+section#profile .wrapper .profile-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section#profile .wrapper .profile-view .profile-picture {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #211c4a;
+  border-radius: 1rem;
+}
+
+section#profile .wrapper .profile-view .profile-picture > img {
+  border-radius: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+section#profile .wrapper .profile-view .profile-picture > button {
+  outline: 0;
+  border: 1px solid white;
+  background-color: transparent;
+  font-family: inherit;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+section#profile .wrapper .profile-view .profile-detail {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image {
+  width: 100%;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  gap: 1rem;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section {
+  height: 16rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section > button {
+  outline: 0;
+  border: 1px solid white;
+  background-color: transparent;
+  font-family: inherit;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section:nth-child(2) {
+  background-image: url("../img/images-item-details.jpg");
+}
+
+section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section:nth-child(3) {
+  background-image: url("../img/daniel-leone-g30P1zcOzXo-unsplash.jpg");
+}
+/*# sourceMappingURL=profile-edit.css.map */
