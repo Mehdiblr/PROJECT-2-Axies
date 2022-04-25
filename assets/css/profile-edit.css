@@ -10,15 +10,10 @@ section#profile .wrapper {
 }
 
 section#profile .wrapper .profile-view {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
 }
 
 section#profile .wrapper .profile-view .profile-picture {
@@ -71,6 +66,12 @@ section#profile .wrapper .profile-view .profile-detail .cover-image {
   width: 100%;
 }
 
+section#profile .wrapper .profile-view .profile-detail .cover-image h4 {
+  font-family: inherit;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
 section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover {
   display: -ms-grid;
   display: grid;
@@ -115,5 +116,17 @@ section#profile .wrapper .profile-view .profile-detail .cover-image .select-cove
 
 section#profile .wrapper .profile-view .profile-detail .cover-image .select-cover .cover-section:nth-child(3) {
   background-image: url("../img/daniel-leone-g30P1zcOzXo-unsplash.jpg");
+}
+
+section#profile .wrapper .profile-view .profile-detail .profile-account {
+  width: 100%git;
+}
+
+section#profile .wrapper .profile-view .profile-detail .profile-account .form-divider {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 /*# sourceMappingURL=profile-edit.css.map */

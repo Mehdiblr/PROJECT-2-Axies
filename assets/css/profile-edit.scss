@@ -6,9 +6,8 @@ section#profile {
         width: 1280px;
         margin: 0 auto;
         .profile-view {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
             .profile-picture {
                 padding: 1rem;
                 display: flex;
@@ -38,6 +37,11 @@ section#profile {
                 padding: 2rem;
                 .cover-image {
                     width: 100%;
+                    h4 {
+                        font-family: inherit;
+                        font-size: 1.6rem;
+                        margin-bottom: 1rem;
+                    }
                     .select-cover {
                         display: grid;
                         grid-template-columns: repeat(3, 1fr);
@@ -69,6 +73,14 @@ section#profile {
                         .cover-section:nth-child(3) {
                             background-image: url('../img/daniel-leone-g30P1zcOzXo-unsplash.jpg');
                         }
+                    }
+                }
+                .profile-account {
+                    width: 100%git;
+                    .form-divider {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 1rem
                     }
                 }
             }
