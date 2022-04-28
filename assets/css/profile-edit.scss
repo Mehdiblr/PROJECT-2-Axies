@@ -96,8 +96,10 @@ section#profile {
                         display: grid;
                         grid-template-columns: repeat(2, 1fr);
                         gap: 2rem;
+                        margin: 2rem 0px;
                         h4 {
                             font-size: 2.1rem;
+                            margin-bottom: 1.2gitrem;
                         }
                         .form-group {
                             display: flex;

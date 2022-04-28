@@ -146,10 +146,12 @@ section#profile .wrapper .profile-view .profile-detail .profile-account .form-di
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  margin: 2rem 0px;
 }
 
 section#profile .wrapper .profile-view .profile-detail .profile-account .form-divider h4 {
   font-size: 2.1rem;
+  margin-bottom: 1.2gitrem;
 }
 
 section#profile .wrapper .profile-view .profile-detail .profile-account .form-divider .form-group {
