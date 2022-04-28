@@ -78,10 +78,15 @@
         <section id="profile">
             <div class="wrapper">
                 <form class="profile-view">
-                    <div class="profile-picture">
-                        <img src="assets/axies-images/04_Top Seller/avt-5.jpg" alt="">
-                        <button>BTN</button>
-                        <button>BTN</button>
+                    <div class="profile-viewer">
+                        <div class="profile-picture">
+                            <img src="assets/axies-images/04_Top Seller/avt-5.jpg" alt="">
+                            <button>Upload New Photo</button>
+                            <button>Delete</button>
+
+
+
+                        </div>
                     </div>
                     <div class="profile-detail">
                         <div class="cover-image">
@@ -98,7 +103,49 @@
                         </div>
                         <div class="profile-account">
                             <div class="form-divider">
-                                <h4>Account info</h4>
+                                <div class="left-side">
+                                    <h4>Account info</h4>
+                                    <div class="form-group">
+                                        <label for="displayName" class="input-label">Display Name</label>
+                                        <input type="text" id="displayName" placeholder="nter your display name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="customUrl" class="input-label">Custom URL</label>
+                                        <input type="text" id="customUrl" placeholder="Enter your Custom Profile url">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Email" class="input-label">Email</label>
+                                        <input type="text" id="Email" placeholder="Enter your email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textarea" class="input-label">Bio</label>
+                                        <textarea id="textarea" placeholder="Enter your email" cols="50" rows="7"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button>Upload Profile</button>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <h4>Your Social Media</h4>
+                                    <div class="form-group">
+                                        <label for="facebook" class="input-label">facebook</label>
+                                        <input type="text" id="facebook" placeholder="Enter your facebook url">
+                                        <button><i class="fa fa-facebook" aria-hidden="true"></i> Connect to facebook</button>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="twitter" class="input-label">twitter</label>
+                                        <input type="text" id="twitter" placeholder="Enter your twitter url">
+                                        <button> <i class="fa fa-twitter" aria-hidden="true"></i> Connect to twitter</button>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Discord" class="input-label">Discord</label>
+                                        <input type="text" id="Discord" placeholder="Enter your Discord url">
+                                        <button>Connect to Discord</button>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
